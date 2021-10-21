@@ -19,4 +19,5 @@ public interface MyQueue<E> {
     static <T> MyQueue<T> create() {
         return new MyQueueDLLBImpl<>();
     }
+    /**get access to the private attribute of the class*/
 }

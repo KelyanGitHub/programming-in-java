@@ -20,4 +20,5 @@ public interface MyStack<E> {
     static <T> MyStack<T> create() {
         return new MyStackDLLBImpl<T>();
     }
+    /**get access to the private attribute of the class*/
 }
